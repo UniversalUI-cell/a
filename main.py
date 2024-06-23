@@ -2,7 +2,7 @@ from discord.ext import commands
 import discord
 import random
 
-bot = commands.Bot(command_prefix='.', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='/', intents=discord.Intents.all())
 
 @bot.command()
 async def mines(ctx, round_id):
@@ -80,4 +80,4 @@ async def mines(ctx, round_id):
         await ctx.reply(embed=em)
 
 
-bot.run("Your bot token here:)")
+bot.run("MTI1NDUwNjEyNjU0MDY3MzExNg.GOfWFN.bQPJObD9b7yVP-1Q76MsEKkPJvLXf9aiVolnjU")
